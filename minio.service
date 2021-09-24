@@ -1,0 +1,8 @@
+[Unit]
+Description=Virtual Distributed Ethernet
+
+[Service]
+ExecStart=/root/start_minio.sh
+
+[Install]
+WantedBy=multi-user.target
